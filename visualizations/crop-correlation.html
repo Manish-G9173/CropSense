@@ -1,0 +1,90 @@
+<section id="crop-correlation-heatmap" aria-labelledby="crop-correlation-title">
+  <h3 id="crop-correlation-title">Soil &amp; climate feature correlation</h3>
+  <table class="table tabular-nums" aria-label="Pearson correlation matrix for the seven numeric crop recommendation features">
+    <thead>
+      <tr>
+        <th scope="col">Feature</th>
+        <th scope="col" aria-label="Nitrogen">N</th>
+        <th scope="col" aria-label="Phosphorus">P</th>
+        <th scope="col" aria-label="Potassium">K</th>
+        <th scope="col" aria-label="Temperature">Temp.</th>
+        <th scope="col" aria-label="Humidity">Humidity</th>
+        <th scope="col" aria-label="Soil pH">pH</th>
+        <th scope="col" aria-label="Rainfall">Rainfall</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">N</th>
+        <td aria-label="Nitrogen with Nitrogen: 1.00" style="background:color-mix(in srgb,var(--green) 48%,var(--background))">1.00</td>
+        <td aria-label="Nitrogen with Phosphorus: -0.23" style="background:color-mix(in srgb,var(--purple) 11%,var(--background))">-0.23</td>
+        <td aria-label="Nitrogen with Potassium: -0.14" style="background:color-mix(in srgb,var(--purple) 7%,var(--background))">-0.14</td>
+        <td aria-label="Nitrogen with Temperature: 0.03" style="background:color-mix(in srgb,var(--green) 2%,var(--background))">0.03</td>
+        <td aria-label="Nitrogen with Humidity: 0.19" style="background:color-mix(in srgb,var(--green) 9%,var(--background))">0.19</td>
+        <td aria-label="Nitrogen with soil pH: 0.10" style="background:color-mix(in srgb,var(--green) 5%,var(--background))">0.10</td>
+        <td aria-label="Nitrogen with Rainfall: 0.06" style="background:color-mix(in srgb,var(--green) 3%,var(--background))">0.06</td>
+      </tr>
+      <tr>
+        <th scope="row">P</th>
+        <td aria-label="Phosphorus with Nitrogen: -0.23" style="background:color-mix(in srgb,var(--purple) 11%,var(--background))">-0.23</td>
+        <td aria-label="Phosphorus with Phosphorus: 1.00" style="background:color-mix(in srgb,var(--green) 48%,var(--background))">1.00</td>
+        <td aria-label="Phosphorus with Potassium: 0.74" style="background:color-mix(in srgb,var(--green) 36%,var(--background))">0.74</td>
+        <td aria-label="Phosphorus with Temperature: -0.13" style="background:color-mix(in srgb,var(--purple) 6%,var(--background))">-0.13</td>
+        <td aria-label="Phosphorus with Humidity: -0.12" style="background:color-mix(in srgb,var(--purple) 6%,var(--background))">-0.12</td>
+        <td aria-label="Phosphorus with soil pH: -0.14" style="background:color-mix(in srgb,var(--purple) 7%,var(--background))">-0.14</td>
+        <td aria-label="Phosphorus with Rainfall: -0.06" style="background:color-mix(in srgb,var(--purple) 3%,var(--background))">-0.06</td>
+      </tr>
+      <tr>
+        <th scope="row">K</th>
+        <td aria-label="Potassium with Nitrogen: -0.14" style="background:color-mix(in srgb,var(--purple) 7%,var(--background))">-0.14</td>
+        <td aria-label="Potassium with Phosphorus: 0.74" style="background:color-mix(in srgb,var(--green) 36%,var(--background))">0.74</td>
+        <td aria-label="Potassium with Potassium: 1.00" style="background:color-mix(in srgb,var(--green) 48%,var(--background))">1.00</td>
+        <td aria-label="Potassium with Temperature: -0.16" style="background:color-mix(in srgb,var(--purple) 8%,var(--background))">-0.16</td>
+        <td aria-label="Potassium with Humidity: 0.19" style="background:color-mix(in srgb,var(--green) 9%,var(--background))">0.19</td>
+        <td aria-label="Potassium with soil pH: -0.17" style="background:color-mix(in srgb,var(--purple) 8%,var(--background))">-0.17</td>
+        <td aria-label="Potassium with Rainfall: -0.05" style="background:color-mix(in srgb,var(--purple) 2%,var(--background))">-0.05</td>
+      </tr>
+      <tr>
+        <th scope="row">Temp.</th>
+        <td aria-label="Temperature with Nitrogen: 0.03" style="background:color-mix(in srgb,var(--green) 2%,var(--background))">0.03</td>
+        <td aria-label="Temperature with Phosphorus: -0.13" style="background:color-mix(in srgb,var(--purple) 6%,var(--background))">-0.13</td>
+        <td aria-label="Temperature with Potassium: -0.16" style="background:color-mix(in srgb,var(--purple) 8%,var(--background))">-0.16</td>
+        <td aria-label="Temperature with Temperature: 1.00" style="background:color-mix(in srgb,var(--green) 48%,var(--background))">1.00</td>
+        <td aria-label="Temperature with Humidity: 0.21" style="background:color-mix(in srgb,var(--green) 10%,var(--background))">0.21</td>
+        <td aria-label="Temperature with soil pH: -0.02" style="background:color-mix(in srgb,var(--purple) 1%,var(--background))">-0.02</td>
+        <td aria-label="Temperature with Rainfall: -0.03" style="background:color-mix(in srgb,var(--purple) 1%,var(--background))">-0.03</td>
+      </tr>
+      <tr>
+        <th scope="row">Humidity</th>
+        <td aria-label="Humidity with Nitrogen: 0.19" style="background:color-mix(in srgb,var(--green) 9%,var(--background))">0.19</td>
+        <td aria-label="Humidity with Phosphorus: -0.12" style="background:color-mix(in srgb,var(--purple) 6%,var(--background))">-0.12</td>
+        <td aria-label="Humidity with Potassium: 0.19" style="background:color-mix(in srgb,var(--green) 9%,var(--background))">0.19</td>
+        <td aria-label="Humidity with Temperature: 0.21" style="background:color-mix(in srgb,var(--green) 10%,var(--background))">0.21</td>
+        <td aria-label="Humidity with Humidity: 1.00" style="background:color-mix(in srgb,var(--green) 48%,var(--background))">1.00</td>
+        <td aria-label="Humidity with soil pH: -0.01" style="background:color-mix(in srgb,var(--purple) 1%,var(--background))">-0.01</td>
+        <td aria-label="Humidity with Rainfall: 0.09" style="background:color-mix(in srgb,var(--green) 4%,var(--background))">0.09</td>
+      </tr>
+      <tr>
+        <th scope="row">pH</th>
+        <td aria-label="Soil pH with Nitrogen: 0.10" style="background:color-mix(in srgb,var(--green) 5%,var(--background))">0.10</td>
+        <td aria-label="Soil pH with Phosphorus: -0.14" style="background:color-mix(in srgb,var(--purple) 7%,var(--background))">-0.14</td>
+        <td aria-label="Soil pH with Potassium: -0.17" style="background:color-mix(in srgb,var(--purple) 8%,var(--background))">-0.17</td>
+        <td aria-label="Soil pH with Temperature: -0.02" style="background:color-mix(in srgb,var(--purple) 1%,var(--background))">-0.02</td>
+        <td aria-label="Soil pH with Humidity: -0.01" style="background:color-mix(in srgb,var(--purple) 1%,var(--background))">-0.01</td>
+        <td aria-label="Soil pH with soil pH: 1.00" style="background:color-mix(in srgb,var(--green) 48%,var(--background))">1.00</td>
+        <td aria-label="Soil pH with Rainfall: -0.11" style="background:color-mix(in srgb,var(--purple) 5%,var(--background))">-0.11</td>
+      </tr>
+      <tr>
+        <th scope="row">Rainfall</th>
+        <td aria-label="Rainfall with Nitrogen: 0.06" style="background:color-mix(in srgb,var(--green) 3%,var(--background))">0.06</td>
+        <td aria-label="Rainfall with Phosphorus: -0.06" style="background:color-mix(in srgb,var(--purple) 3%,var(--background))">-0.06</td>
+        <td aria-label="Rainfall with Potassium: -0.05" style="background:color-mix(in srgb,var(--purple) 2%,var(--background))">-0.05</td>
+        <td aria-label="Rainfall with Temperature: -0.03" style="background:color-mix(in srgb,var(--purple) 1%,var(--background))">-0.03</td>
+        <td aria-label="Rainfall with Humidity: 0.09" style="background:color-mix(in srgb,var(--green) 4%,var(--background))">0.09</td>
+        <td aria-label="Rainfall with soil pH: -0.11" style="background:color-mix(in srgb,var(--purple) 5%,var(--background))">-0.11</td>
+        <td aria-label="Rainfall with Rainfall: 1.00" style="background:color-mix(in srgb,var(--green) 48%,var(--background))">1.00</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="text-small" aria-label="Color key">Purple: negative · neutral: near zero · green: positive · Pearson r ranges from -1 to +1.</p>
+</section>

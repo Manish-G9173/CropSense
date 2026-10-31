@@ -1,0 +1,9 @@
+-r requirements.txt
+
+# Optional PlantVillage CNN, PDF support, and Gemini remedy generation.
+tensorflow>=2.16,<3.0
+keras>=3.0,<4.0
+huggingface_hub>=0.27
+pypdfium2>=4.30
+Pillow>=10.0
+google-genai>=1.0
